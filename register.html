@@ -1,0 +1,284 @@
+
+	<title>Demo</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/animate.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.p
+		{
+			padding:0px;
+			margin: 0px;	
+			border-radius: 0px;
+		}
+		body
+		{
+			font-family:sans-serif,'Source Sans Pro';
+			backgwqdround-color: black;
+			cowqdlor:rgb(255, 204, 0);	
+			
+		}
+		.item 
+		{
+			height:720px;
+			font-weight: bolder;
+
+		}
+		
+		.Y{
+			color:  #bfbfbf;
+			text-shadow: 5px 5px 10px black;
+		}
+		.modal-body
+		{
+			background-image: url("img/grey.jpg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		.circle
+		{
+			background-color: #fcfcfc;
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			padding: 25px;
+			box-shadow: 0px 4px 2px 2px #e6e6e6;
+			font-size:24pt;
+			margin-bottom: 40px;
+		}
+		.circle2
+		{
+			background-color: #fcfcfc;
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			padding: 25px;
+			box-shadow: 0px 4px 2px 2px #e6e6e6;
+			font-size:24pt;
+			
+		}
+		.animation-duration
+		{
+			animation-duration:1s;
+
+		}
+		.con1
+		{
+			background-image: url("img/pink.jpg");
+			background-repeat: no-repeat;
+			background-size: 100;
+			margin-top:60px;
+			border-radius:10px;
+			color: white;
+			box-shadow:-2px 5px 3px 5px #ffcccc;
+			float: left;
+		}
+		.con2
+		{
+			margin-top:30px;
+			box-shadow:2px 5px 3px 5px #f2f2f2;
+			font-size: 14px;
+			padding: 20px;
+			background-color: #edf2f7;
+			border-radius: 7px;
+		}
+	</style>
+	</head>
+<body style="">
+	<div class="container-fluid ">
+		<div class="row">
+			<div class="col-sm-12 p">
+				<div class="navbar navbar-inverse p">
+					<div class="navbar-header">
+						<a href="#" class="navbar-brand">CARSPOT</a> 
+						<button data-target="#navi"  data-toggle="collapse" class="navbar-toggle">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="navi">
+						<ul class="nav navbar-nav y"  >
+							<li class="active"><a href="#" >Home</a></li>
+							<li><a href="register_page.html" >Register</a></li>
+							<li><a href="#">Listing</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#modlogin" data-toggle="modal"  >Login</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="modlogin" class="modal animated slideInDown fade" >
+					<div class="modal-dialog modal-md">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times</button>
+								<h1 class="modal-title" align="center">Login form</h1>
+							</div>
+							<div class="modal-body">
+								<form method="" action="" class="form">
+									<div class="form-group input-group">
+										<span class="input-group-addon">
+											<i class="glyphicon glyphicon-user"></i>
+										</span>
+										<input type="text" class="form-control" placeholder="Enter your UserName">
+									</div>
+									<div class="form-group input-group">
+										<span class="input-group-addon">
+											<i class="glyphicon glyphicon-lock"></i>
+										</span>
+										<input type="text" class="form-control" placeholder="Enter your Password">
+									</div>
+									<div class="form-group" >
+										<select class="form-control">
+											<option>--select--</option>
+											<option>Admin</option>
+											<option>User</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<a class="btn btn-success btn-block" href="profile.html">Submit</a>
+									</div>
+								</form>
+								<div align="center">
+									Don't have an account <a href="register.html">Register here</a>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+		</div>
+		<div class="col-sm-offset-1 col-sm-4 con1" align="center">
+				<br><br><br>
+				<div id="myC" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="myC" data-slide-to="0" class="active"></li>
+						<li data-target="myC" data-slide-to="1"></li>
+						<li data-target="myC" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active" style="height: 580px">
+							<br>
+							<div class="circle" style>
+								<img src="img/graph.png" width="100%">
+							</div><br><br><br><br><br><br>
+							<div class="carousel-caption">
+								<h3>Welcome to MY Site</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							</div>
+						</div>
+						<div class="item" style="height: 480px">
+							<div class="circle">
+								<img src="img/graph.png" width="100%">
+							</div><br><br><br><br><br><br>
+							<div class="carousel-caption">
+								<h3>Welcome to MY Site</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							</div>
+						</div>
+						<div class="item " style="height: 480px">
+							<div class="circle">
+								<img src="img/graph.png" width="100%">
+							</div><br><br><br><br><br><br>
+							<div class="carousel-caption">
+								<h3>Welcome to MY Site</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 con2" >
+				<h1 class="red" style="margin-top: 10px"><span class="glyphicon glyphicon-lock"></span>Register</h1>
+				<div style="width:200px ;height:4px;background-color:red;"></div>
+				<div style="width:100% ;height:2px;background-color:black;"></div>	
+				<form method="" action="" class="form">
+					<br>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Name" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Contact Number" required>
+					</div>
+					<div class="form-group">
+						<input type="mail" class="form-control" placeholder="Email" required>
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" placeholder="Address"></textarea>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="pin" required>
+					</div>
+					<div class="form-group">
+						<select class="form-control">
+								<option>--select State--</option>
+								<option value="karnataka">karnataka</option>
+								<option value="Kerala">Kerala</option>
+								<option value="Tamilnadu">Tamilnadu</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<select class="form-control">
+								<option>--select district--</option>
+								<option value="Mysuru">Mysuru</option>
+								<option value="Bangaluru">Bangaluru</option>
+								<option value="Hassan">Hassan</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Password" required>
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Confirm Password" required>
+					</div>
+					<div class="form-group">
+						<select class="form-control">
+								<option>--select secret question--</option>
+								<option value="Mysuru">Vehicle number</option>
+								<option value="Bangaluru">Home door number</option>
+								<option value="Hassan">Color</option>
+						</select><br>
+						<input type="text" class="form-control" placeholder="Your Answer" required>
+					</div>
+					
+					<div class="form-group">
+						<input type="checkbox" name="" class="chk">I agree all statements in <z class="red">Terms and Conditions</z>
+					</div>
+					<div class="form-group">
+						<button class="btn btn-danger ">REGISTER</button>
+					</div>
+
+				</form>
+			</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
+			<!--<div class="col-sm-6">
+				<form class="form-horizontal" method="post" action="#">
+					<div class="form-group">
+						<label class="col-sm-3 control-label">Enter your Name</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">Enter your Password</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control">
+						</div>
+					</div>
+					<div class="form-group">
+						<button class="btn btn-block">Submit</button>
+					</div>
+				</form>
+			</div>-->
+		</div>
+
+</body>
+</html>

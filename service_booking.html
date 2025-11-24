@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" >
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<title>Service Booking</title>
+	<style type="text/css">
+		.con1
+		{
+			background-image: url("img/d.jpg");
+			background-repeat: no-repeat;
+			height: 680px;
+			margin-top:60px;
+			border-radius:10px;
+			color: white;
+			box-shadow:-2px 5px 3px 5px #ffcccc;
+		}
+		.circle
+		{
+			border:dashed;
+			padding: 5px;
+			border-radius: 50%;
+			width: 150px;
+			height: 150px;
+		}
+		.con2
+		{
+			margin-top:30px;
+			box-shadow:2px 5px 3px 5px #f2f2f2;
+			font-size: 14pt;
+			padding: 20px;
+			padding-bottom: 0px;
+			background-color:  #e6e6e6;
+			border-radius: 7px;
+		}
+		.red
+		{
+			color: red;
+		}
+		.form-control
+		{
+			
+			padding: 5px;
+			border-radius:10px;
+		}
+
+		input[type=checkbox]
+		{
+			font-size:30pt;
+		}
+		.chk
+		{
+
+			width: 20px;
+			height: 20px;
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<!--<div class="col-sm-3 con1" align="center">
+				<br><br><br>
+				<div id="myC" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="myC" data-slide-to="0" class="active"></li>
+						<li data-target="myC" data-slide-to="1"></li>
+						<li data-target="myC" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active" style="height: 480px">
+							<br>
+							<div class="circle" style>
+								<img src="img/graph.png" width="100%">
+							</div><br><br><br><br><br><br>
+							<div class="carousel-caption">
+								<h3>CARSPOT</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
+							</div>
+						</div>
+						<div class="item" style="height: 480px">
+							<div class="circle">
+								<img src="img/graph.png" width="100%">
+							</div><br><br><br><br><br><br>
+							<div class="carousel-caption">
+								<h3>Welcome to MY Site</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+							</div>
+						</div>
+						<div class="item " style="height: 480px">
+							<div class="circle">
+								<img src="img/graph.png" width="100%">
+							</div><br><br><br><br><br><br>
+							<div class="carousel-caption">
+								<h3>Welcome to MY Site</h3>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>-->
+			<div class="col-sm-offset-1 col-sm-10 con2" >
+				<h1 class="red" style="margin-top: 10px"><span class="glyphicon glyphicon-lock"></span>Book your Vehical Service Here</h1>
+				<div style="width:70% ;height:4px;background-color:red;"></div>
+				<div style="width:100% ;height:2px;background-color:black;"></div>	
+				<form method="" action="" class="form">
+					<br>
+					<div class="col-sm-4">
+						<div class="form-group">
+							<label>Name</label>
+							<input type="text" class="form-control" placeholder="Name" required>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="form-group">
+							<label>Mobile No</label>
+							<input type="text" class="form-control" placeholder="Mobile number" required>
+						</div>
+					</div>
+						<div class="col-sm-4">						
+						<div class="form-group">
+							<label>Reg_No(RC)</label>
+							<input type="text" class="form-control" placeholder="Name" required>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="form-group">
+							<label>Model name</label>
+							<input type="text" class="form-control" placeholder="Name" required>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="form-group">
+							<label>Engine no</label>
+							<input type="text" class="form-control" placeholder="Mobile number" required>
+						</div>
+					</div>
+						<div class="col-sm-4">						
+						<div class="form-group">
+							<label>Chassis no</label>
+							<input type="text" class="form-control" placeholder="Name" required>
+						</div>
+					</div>
+					<div class="col-sm-6">
+							<label>Service for</label>
+							<div class="form-group">
+								<div class="col-sm-6">
+									<label>
+									 	<input type="checkbox" id="bike" value=""><img  src="img/bike/sport.png" width="90%">
+									 </label>
+								 </div>
+	    						<div class="col-sm-6">
+     						 		<label class="service_type">
+     						 			<input type="checkbox" value="" ><img src="img/cars/body-style-crossover-blue.svg" width="90%">
+    								</label>
+    						</div>
+    					</div>
+    				</div>
+
+					<div class="col-sm-3">	
+						<div class="form-group">					
+						<div class="form-group">
+							<label>Brand</label>
+							<select class="form-control">
+									<option>--select Type--</option>
+									<option value="Mysuru">Honda</option>
+									<option value="Bangaluru">Nissan</option>
+									<option value="Hassan">Suzuki</option>
+							</select>
+						</div>
+							<label>Year</label>
+							<select class="form-control">
+									<option>--select Type--</option>
+									<option value="Mysuru">2015</option>
+									<option value="Bangaluru">2016</option>
+									<option value="Hassan">2017</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-sm-3">						
+						<div class="form-group">
+							<label>Total KM Done</label>
+							<input type="number" class="form-control" placeholder="Name" required>
+						</div>
+						<div class="form-group">
+							<label>KM from last Service</label>
+							<input type="number" class="form-control" placeholder="Name" required>
+						</div>
+					</div>
+					<div class="col-sm-offset-1 col-sm-4">						
+						<div class="form-group">
+							<label>Service Type</label>
+							<select class="form-control">
+									<option>--select Type--</option>
+									<option value="Mysuru">General Service</option>
+									<option value="Bangaluru">Wheel Alignment</option>
+									<option value="Hassan">Water Wash</option>
+									<option value="Hassan">Acciedent</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label>Photos</label>
+							<input class="" type="file" name="pic" accept="image/*">
+						</div>
+					</div>
+					<div class="col-sm-6">						
+						<div class="form-group">
+							<label>Issues/Problems</label>
+							<textarea class="form-control" style="height:120px;" placeholder="Address" requireds></textarea>
+						</div>
+					</div>
+					<div class="col-sm-12">
+						<h2 class="red">Pick up details</h2>
+						
+					<div style="width:70% ;height:5px;background-color: #00e6e6;"></div><br>
+					</div>
+					<div class="col-sm-offset-1 col-sm-4">						
+						<div class="form-group">
+							<label>Pick Date</label>
+							<input class="form-control" type="date" name="pic" accept="image/*">
+						</div>
+						<div class="form-group">
+							<label>Pick Timings</label>
+							<input class="form-control" type="time" name="pic" accept="image/*">
+						</div>
+					</div>
+					<div class="col-sm-6">						
+						<div class="form-group">
+							<label>Address</label>
+							<textarea class="form-control" style="height:120px;" placeholder="Address" requireds></textarea>
+						</div>
+					</div>
+    				
+							
+					<div class="col-sm-12" align="ceter">
+						<input type="checkbox" name="" class="chk"><label>I agree all statements in <z class="red">Terms and Conditions</z></label>
+					</div>
+					<div class="col-sm-offset-4 col-sm-4">
+						<div class="form-group">
+							<input type="submit" class="btn btn-success form-control" value="Book Service">
+						</div>
+
+				</form>
+			</div>
+		</div>
+
+</body>
+</html>

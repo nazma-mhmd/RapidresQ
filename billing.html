@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Billing</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.p
+		{
+			padding:0px;
+			margin: 0px;	
+			border-radius: 0px;
+		}
+		body
+		{
+			font-family:sans-serif,'Source Sans Pro';
+			backgwqdround-color: black;
+			cowqdlor:rgb(255, 204, 0);	
+			
+		}
+		.con1
+		{
+			margin-top: 50px;
+			font-family: Capitalize;
+		}
+		.gcircle
+		{
+			border:2px solid black;
+			width:50px;
+			height: 50px;
+			padding:5px;
+			border-radius: 50%;
+			font-size: 20pt;
+
+		}
+		.circle
+		{
+			border:2px solid red;
+			width:80px;
+			height: 80px;
+			padding:5px;
+			border-radius: 50%;
+		}
+		.parent
+		{
+			position: relative;
+		}
+		.circle::after{
+			content: ">>>>>";
+			color: blue;
+			top:30px;
+			position: absolute;
+			left: 130px;
+		}
+		.circle1
+		{
+			border:2px solid red;
+			width:80px;
+			height: 80px;
+			padding:5px;
+			border-radius: 50%;
+		}
+		.price td{
+			text-align: right;
+		}
+	</style>
+	</head>
+<body style="">
+	<div class="container-fluid  ">
+		<div class="row">
+			<div class="col-sm-12 p">
+				<div class="navbar navbar-inverse p">
+					<div class="navbar-header">
+						<a href="#" class="navbar-brand">CARSPOT</a> 
+						<button data-target="#navi"  data-toggle="collapse" class="navbar-toggle">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="navi">
+						<ul class="nav navbar-nav y"  >
+							<li class="active"><a href="#" >Home</a></li>
+							<li><a href="#" >Cars</a></li>
+							<li><a href="#">Listing</a></li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#modlogin" >Logout</a></li>
+						</ul>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<div class="container">
+			<div class="row" align="center">
+				<div class="col-sm-offset-2 col-sm-8 con1" align="center">
+						<img src="img/man.png" width="50%"><br>	<br>
+						<div class="gcircle">
+							<span class="glphiocon glyphicon-bell"></span>
+						</div>
+						<h1>THANK YOU</h1>
+						<h4>Payment is Successfully and your order is on the way</h4>
+						<h4>Transaction ID:3561634165416</h4><br><br>
+						<div style="width:100%;height:2px;background-color:black;"></div><br><br>
+						<h1>Order delivered</h1><br><br>
+						<div class="col-sm-offset-1 col-sm-2" >
+							<div class="parent">
+								<div class="circle"></div>
+								<h4>Order Confirmed</h4>
+							</div>
+						</div>
+						<div class=" col-sm-offset-1 col-sm-2" >
+							<div class="parent">
+								<div class="circle"></div>
+								<h4>Order Shipped</h4>
+							</div>
+						</div>
+						<div class="col-sm-offset-1 col-sm-2" >
+							<div class="parent">
+								<div class="circle"></div>
+								<h4>Order Delivery</h4>
+							</div>
+						</div>
+						<div class="col-sm-offset-1 col-sm-2" >
+							<div class="parent">
+								<div class="circle1"></div>
+								<h4>Order Deivered</h4>
+							</div>
+						</div>
+						<div class="col-sm-12" align="left">
+							<h1>YOUR ORDER DETAILS</h1>
+							<table class="table">
+								<thead>
+									<tr>
+										<th>PRODUCT</th>
+										<th>DESCIPTION</th>
+										<th>QUALITY</th>
+										<th>PRICE</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><img src="img/man.png" width="100px"></td>
+										<td>
+											<p>yufvd vqghb dheqsf 
+											hvghbwqvd hjqben dews</p>
+										</td>
+										<td>
+											<p>SIZE:L<br>
+											OTY:1</p>
+										</td>
+										<td>$500</td>
+									</tr>
+									<tr>
+										<td><img src="img/man.png" width="100px"></td>
+										<td>
+											<p>yufvd vqghb dheqsf 
+											hvghbwqvd hjqben dews</p>
+										</td>
+										<td>
+											<p>SIZE:L<br>
+											OTY:1</p>
+										</td>
+										<td>$500</td>
+									</tr>
+									<tr>
+										<td><img src="img/man.png" width="100px"></td>
+										<td>
+											<p>yufvd vqghb dheqsf 
+											hvghbwqvd hjqben dews</p>
+										</td>
+										<td>
+											<p>SIZE:L<br>
+											OTY:1</p>
+										</td>
+										<td>$500</td>
+									</tr>
+								</tbody>
+							</table>
+							<table class="table price">
+								<tbody>
+									<tr>
+										<th>Products</th>
+										<td>$2500</td>
+									</tr>
+									<tr>
+										<th>Discount</th>
+										<td>$500</td>
+									</tr>
+									<tr>
+										<th>Total</th>
+										<td>$2000</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-6" align="left">
+							<h3>DILIVERY ADDRESS</h3>
+							<div style="width:100%;height:2px;background-color:black;"></div>
+							268 Cambridge Lane New Albany,<br>
+							IN 47150268 Cambridge Lane<br>
+							New ALbany. IN 47150
+						</div>
+						<div class="col-sm-6" align="left">
+							<h3>SHIPPING ADDRESS</h3>
+							<div style="width:100%;height:2px;background-color:black;"></div>
+							268 Cambridge Lane New Albany,<br>
+							IN 47150268 Cambridge Lane<br>
+							New ALbany. IN 47150
+						</div>
+						<div class="col-sm-12" style="padding: 20px;">
+							<h1><B>FOLLOW US</B></h1>
+							<div class=" col-sm-offset-3 col-sm-1">
+								<div class="gcircle">
+									<span class="fa fa-facebook"></span>
+								</div>
+							</div>
+							<div class="col-sm-1">
+								<div class="gcircle">
+									<span class="fa fa-twitter"></span>
+								</div>
+							</div>
+							<div class="col-sm-1">
+								<div class="gcircle">
+									<span class="fa fa-google-plus"></span>
+								</div>
+							</div>
+							<div class="col-sm-1">
+								<div class="gcircle">
+									<span class="fa fa-linked"></span>
+								</div>
+							</div>
+							<div class="col-sm-1">
+								<div class="gcircle">
+									<span class="fa fa-facebook"></span>
+								</div>
+							</div>
+							<div class="col-sm-1">
+								<div class="gcircle">
+									<span class="fa fa-facebook"></span>
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-12">
+							<div style="width:100%;height:2px;background-color:black;"></div><br>
+							<h4><a href="#">Want to change hopw you recieve these emails?</a></h4>
+							<p>2019-20 Copy Right By CARSTOP powered by @ak</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+
+</body>
+</html>
